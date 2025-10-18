@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wandoo United FC - Squad</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav> ... same nav ... </nav>
+
+<section class="page-section">
+  <h2>Squad</h2>
+  <div class="filters">
+    <input type="text" id="searchPlayer" placeholder="Search Player">
+    <select id="positionFilter">
+      <option value="">All Positions</option>
+      <option value="Goalkeeper">Goalkeeper</option>
+      <option value="Defender">Defender</option>
+      <option value="Midfielder">Midfielder</option>
+      <option value="Forward">Forward</option>
+    </select>
+    <select id="nationalityFilter">
+      <option value="">All Nationalities</option>
+      <option value="Kenyan">Kenyan</option>
+      <option value="Ugandan">Ugandan</option>
+      <option value="Tanzanian">Tanzanian</option>
+    </select>
+  </div>
+  <div id="playerGrid" class="grid"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
