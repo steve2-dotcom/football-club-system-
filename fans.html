@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> ... </head>
+<body>
+<nav> ... </nav>
+
+<section class="page-section">
+  <h2>Fan Zone</h2>
+  <audio controls autoplay loop>
+    <source src="assets/anthem.mp3" type="audio/mpeg">
+  </audio>
+  <div id="gallery" class="grid">
+    <img src="assets/gallery/photo1.jpg" alt="">
+    <img src="assets/gallery/photo2.jpg" alt="">
+  </div>
+  <div id="polls">
+    <h3>Vote Player of the Match</h3>
+    <button onclick="vote('Player A')">Player A</button>
+    <button onclick="vote('Player B')">Player B</button>
+    <p id="pollResult"></p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
